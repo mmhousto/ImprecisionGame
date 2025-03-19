@@ -146,9 +146,13 @@ span > p{
 	width: 200px;
 }
 
-span > img {
+span > a > img {
 	width: 100%;
 	height: auto;
+}
+
+span:hover{
+	color: #01b2fd;
 }
 
 .socials{
