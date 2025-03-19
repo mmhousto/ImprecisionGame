@@ -1,0 +1,207 @@
+@font-face{
+	font-family: MedievalSharp;
+	src: url(MedievalSharp-Regular.ttf);
+}
+
+body {
+	font-family: "MedievalSharp";
+	font-size: 4vw;
+	margin: 0;
+	background-color: #000;
+	color: #fff;
+	overflow-x: hidden;
+}
+
+/* Style the navbar */
+#navbar {
+  position: sticky;
+  top: 0;
+  overflow: hidden;
+  background-color: #000;
+}
+
+/* Navbar links */
+#navbar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px;
+  text-decoration: none;
+}
+
+#navbar a:hover {
+	color: #01b2fd;
+}
+
+main {
+	width: 100%;
+	height: auto;
+	
+	
+}
+
+#home{
+	background-image: url("MainCapsule.jpg");
+	background-size:     contain;
+    background-repeat:   no-repeat;
+    vertical-align: bottom;
+	align-content: end;
+}
+
+#assets {
+	height: 100%;
+}
+
+.section{
+	width: 100%;
+	height: calc(100vw * 9 / 16);
+	
+}
+
+.steam{
+	width: 30%;
+	height: 60%;
+	margin: auto;
+	align-content: end;
+	text-align: center;
+}
+
+.story-content{
+	width: 100%;
+	height: 100%;
+}
+
+.story-content > h2{
+	padding: 50px;
+}
+
+.story-content > p {
+	padding-left: 50px;
+}
+
+.story-vid{
+	width: 80%;
+	height: 60%;
+	margin: auto;
+	align-content: end;
+	text-align: center;
+}
+
+.steam > iframe{
+	width: 100%;
+	height: 50%;
+	margin: auto;
+	text-align: center;
+	align-content: center;
+}
+
+h1{
+	font-size: 4vw;
+}
+
+h2{
+	font-size: 3vw;
+}
+
+p{
+	font-size: 2vw;
+}
+
+td{
+	vertical-align: top;
+	text-align: center;
+	padding: 20px;
+	width: 33vw;
+	height: 500px;
+}
+
+td > img {
+	width: 100%;
+	height: 100%;
+}
+
+td:hover {
+	color: #01b2fd;
+}
+
+.email {
+	text-decoration: none;
+	color: #fff;
+}
+
+.email:hover {
+	color: #01b2fd;
+}
+
+span{
+	margin: auto 50px;
+	display: inline-block;
+	width: 200px;
+	height: 300px;
+	text-align: center;
+}
+
+span > p{
+	width: 200px;
+}
+
+span > img {
+	width: 100%;
+	height: auto;
+}
+
+.socials{
+	margin-left: -50px;
+}
+
+footer {
+	position: relative;
+  	margin-top: -50px;
+  	height: 50px;
+	margin: 0;
+	font-size: 1vw;
+	text-align: left;
+	vertical-align: middle;
+}
+
+@media only screen and (max-width: 1080px) {
+
+	iframe{
+		height: 80%;
+	}
+
+  	.steam {
+		width: 60%;
+		height: 60%;
+	}
+}
+
+@media only screen and (max-width: 890px) {
+
+	span{
+		margin: 0px;
+		width: 33vw;
+		height: 300px;
+	}
+
+	span > p{
+		width: 33vw;
+	}
+}
+
+@media only screen and (max-width: 690px) {
+  	.steam {
+		width: 90%;
+		height: 90%;
+	}
+
+	
+}
+
+@media only screen and (max-width: 525px) {
+  	.steam {
+		width: 100%;
+		height: 100%;
+	}
+}
