@@ -72,6 +72,10 @@ main {
 	height: 100%;
 }
 
+.story-content > article > h1, p{
+	padding-left: 50px;
+}
+
 .story-content > h1, h2{
 	padding-left: 50px;
 }
