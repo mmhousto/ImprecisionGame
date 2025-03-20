@@ -72,8 +72,8 @@ main {
 	height: 100%;
 }
 
-.story-content > h2{
-	padding: 50px;
+.story-content > h1, h2{
+	padding-left: 50px;
 }
 
 .story-content > p {
@@ -96,12 +96,22 @@ main {
 	align-content: center;
 }
 
+ul{
+	margin: 0 50px;
+}
+
 h1{
 	font-size: 4vw;
 }
 
 h2{
 	font-size: 3vw;
+}
+
+h3{
+	font-size: 2vw;
+	padding: 0px 50px 0px 50px;
+	margin-bottom: 0px;
 }
 
 p{
@@ -191,6 +201,10 @@ footer {
 
 	span > p{
 		width: 33vw;
+	}
+
+	li{
+		font-size: 1vw;
 	}
 }
 
