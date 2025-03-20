@@ -118,6 +118,10 @@ p{
 	font-size: 2vw;
 }
 
+h1, h2, h3 {
+	color: #05B022;
+}
+
 td{
 	vertical-align: top;
 	text-align: center;
